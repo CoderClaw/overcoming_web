@@ -1,0 +1,33 @@
+.languageSwitcher {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.languageSwitcher .switcherBody {
+  width: 30px;
+  height: 1rem;
+  border-radius: 15px;
+  border: 2px solid black;
+  margin: 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.languageSwitcher .switcherBody .switcherIndicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: black;
+  position: relative;
+  left: -6px;
+}
+
+.languageSwitcher .switcherBody .switcherIndicator.active {
+  left: 6px;
+}

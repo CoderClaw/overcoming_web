@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+body {
+  font-family: Roboto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body::-webkit-scrollbar {
+  display: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/*Nav Component*/
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navBar {
+  width: 100vw;
+  height: 50px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  padding: 0px 30px 0px 10px;
+  position: fixed;
+  background: transparent;
+  color: azure;
+}
+.navBar .menuBox {
+  cursor: pointer;
+}
+.navBar .menuBox .MuiSvgIcon-root {
+  font-size: 25px;
 }
 
-.App-link {
-  color: #61dafb;
-}
+/*Nav Component Ends*/
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/*Main Component*/
+
+/*Home*/
+
+/*Full pc version*/
+/* .homeContainer {
+  height: 100vh;
+  width: 100vw;
+  background: url("./assets/band_pic.jpg") no-repeat center;
+  background-size: cover;
+} */
+
+/*Home ends*/
+
+/*Main Component ends*/

@@ -1,0 +1,30 @@
+.leftSideMenu {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  height: calc(100vh - 50px);
+  width: 300px;
+  background-color: aquamarine;
+}
+
+.leftSideMenu .menuList {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-direction: column;
+  list-style: none;
+  margin-top: 50px;
+}
+
+.leftSideMenu .menuList li {
+  margin-top: 10%;
+  width: 50%;
+}
+
+.leftSideMenu .menuList li a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
